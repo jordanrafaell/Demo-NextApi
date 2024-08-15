@@ -1,0 +1,279 @@
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.422);
+  position: relative;
+}
+
+.img_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/background-site/fundo_banner.png);
+  background-position: 40vw 5vh;
+  background-repeat: no-repeat;
+  z-index: -2;
+  position: absolute;
+}
+
+
+.container_banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1600px;
+}
+
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  gap: 20px;
+  padding-left: 10px;
+  margin-top: 5vh;
+}
+
+.container_text h1 {
+  width: 100%;
+  max-width: 600px;
+  font-size: clamp(2rem, 1.5vw, 3rem);
+  color: aliceblue;
+}
+
+.container_text h2 {
+  width: 100%;
+  max-width: 600px;
+  color: aliceblue;
+  font-size: clamp(2.5rem, 2vw, 2.5rem);
+}
+
+.container_text p {
+  width: 100%;
+  max-width: 600px;
+  color: aliceblue;
+  font-size: clamp(1.2rem, 1vw, 1.2rem);
+}
+
+.container_img {
+  width: 100%;
+  height: 100%;
+  max-width: 650px;
+  filter: drop-shadow(1px 1px 5px white);
+  animation: flipY 4.5s ease-in-out infinite;
+}
+
+/*Animação para imagem flutuar*/
+/* @keyframes floater { 
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(-10);
+  }
+
+} */
+
+@keyframes flipY {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+
+.container_img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+
+.btn_explore {
+  --btn-default-bg: rgb(41, 41, 41);
+  --btn-padding: 15px 20px;
+  --btn-hover-bg: rgb(51, 51, 51);
+  --btn-transition: .3s;
+  --btn-letter-spacing: .1rem;
+  --btn-animation-duration: 1.2s;
+  --btn-shadow-color: rgba(0, 0, 0, 0.137);
+  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+  --hover-btn-color: #FAC921;
+  --default-btn-color: #fff;
+  --font-size: 16px;
+  --font-weight: 600;
+  --font-family: Menlo, Roboto Mono, monospace;
+}
+
+/* button settings 👆 */
+
+.btn_explore {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  right: 8vw;
+  padding: var(--btn-padding);
+  color: var(--default-btn-color);
+  font: var(--font-weight) var(--font-size) var(--font-family);
+  background: var(--btn-default-bg);
+  cursor: pointer;
+  transition: var(--btn-transition);
+  overflow: hidden;
+  box-shadow: var(--btn-shadow);
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.btn_explore span {
+  letter-spacing: var(--btn-letter-spacing);
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  background: inherit;
+}
+
+.btn_explore span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  background: inherit;
+}
+
+.btn_explore:hover, .btn_explore:focus {
+  background: var(--btn-hover-bg);
+}
+
+.btn_explore:hover span, .btn_explore:focus span {
+  color: var(--hover-btn-color);
+}
+
+.btn_explore:hover span::before, .btn_explore:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: "#";
+  }
+
+  5% {
+    content: ".";
+  }
+
+  10% {
+    content: "^{";
+  }
+
+  15% {
+    content: "-!";
+  }
+
+  20% {
+    content: "#$_";
+  }
+
+  25% {
+    content: "№:0";
+  }
+
+  30% {
+    content: "#{+.";
+  }
+
+  35% {
+    content: "@}-?";
+  }
+
+  40% {
+    content: "?{4@%";
+  }
+
+  45% {
+    content: "=.,^!";
+  }
+
+  50% {
+    content: "?2@%";
+  }
+
+  55% {
+    content: "\;1}]";
+  }
+
+  60% {
+    content: "?{%:%";
+    right: 0;
+  }
+
+  65% {
+    content: "|{f[4";
+    right: 0;
+  }
+
+  70% {
+    content: "{4%0%";
+    right: 0;
+  }
+
+  75% {
+    content: "'1_0<";
+    right: 0;
+  }
+
+  80% {
+    content: "{0%";
+    right: 0;
+  }
+
+  85% {
+    content: "]>'";
+    right: 0;
+  }
+
+  90% {
+    content: "4";
+    right: 0;
+  }
+
+  95% {
+    content: "2";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}

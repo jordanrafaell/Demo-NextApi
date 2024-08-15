@@ -1,0 +1,114 @@
+@media (max-width: 10000px) and (min-width: 5000px) {
+  .menu_hamburguer {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 0px) {
+
+  .menu_hamburguer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    position: relative;
+    right: 20px;
+    border-radius: 5px;
+  }
+
+  .menu_hamburguer ol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+  }
+
+  .menu_hamburguer ol li:nth-child(1) {
+    background-color: black;
+    width: 27px;
+    height: 3px;
+  }
+
+  .menu_hamburguer ol li:nth-child(2) {
+    background-color: black;
+    width: 23px;
+    height: 3px;
+  }
+
+  .menu_hamburguer ol li:nth-child(3) {
+    background-color: black;
+    width: 15px;
+    height: 3px;
+  }
+
+  .container_login_register {
+    display: none;
+  }
+
+  .list_ul {
+    display: none !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.512);
+    position: absolute;
+    top: 81px;
+    gap: 15px;
+    overflow: hidden;
+  }
+
+  .list_ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .list_ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .list_ul li:hover {
+    border-bottom: 1px solid white;
+  }
+
+  .list_ul li a:hover::before {
+    content: "";
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    background: rgb(212, 212, 212);
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .list_ul.active {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 40px;
+    z-index: 100;
+  }
+}

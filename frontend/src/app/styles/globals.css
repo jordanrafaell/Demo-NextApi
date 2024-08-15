@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(90deg, rgba(10, 28, 165, 0.912), rgb(57, 2, 159));
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+ul, ol, a{
+  list-style: none;
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+}
