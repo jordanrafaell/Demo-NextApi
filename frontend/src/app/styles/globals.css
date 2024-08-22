@@ -19,10 +19,11 @@ body {
 }
 
 ul, ol, a{
-  list-style: none;
-  text-decoration: none;
+  list-style: none !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
 }
 
 button{
-  cursor: pointer;
+  cursor: pointer !important;
 }
