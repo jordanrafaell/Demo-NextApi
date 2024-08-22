@@ -6,20 +6,12 @@
   height: auto;
   background-color: rgba(0, 0, 0, 0.422);
   position: relative;
+  background-image: url(/images/background-site/fundo_banner.png);
+  background-size: cover;
+  background-position: 0vw 5vh;
+  background-repeat: no-repeat;
 }
 
-.img_background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-image: url(/images/background-site/fundo_banner.png);
-  background-position: 40vw 5vh;
-  background-repeat: no-repeat;
-  z-index: -2;
-  position: absolute;
-}
 
 
 .container_banner {
@@ -40,7 +32,7 @@
   align-items: center;
   text-align: start;
   width: 100%;
-  max-width: 900px;
+  max-width: 700px;
   height: 100%;
   gap: 20px;
   padding-left: 10px;
@@ -52,6 +44,11 @@
   max-width: 600px;
   font-size: clamp(2rem, 1.5vw, 3rem);
   color: aliceblue;
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff 30%, #7e62fc 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .container_text h2 {
@@ -71,10 +68,12 @@
 .container_img {
   width: 100%;
   height: 100%;
-  max-width: 650px;
-  filter: drop-shadow(1px 1px 5px white);
+  max-width: 600px;
+  filter: drop-shadow(1px 1px 10px white);
   animation: flipY 4.5s ease-in-out infinite;
 }
+
+
 
 /*Animação para imagem flutuar*/
 /* @keyframes floater { 
@@ -125,7 +124,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
+  height: auto;
+  gap: 5px;
 }
 
 .btn_explore {
@@ -152,8 +153,6 @@
   align-items: center;
   width: 100%;
   max-width: 200px;
-  position: relative;
-  right: 4vw;
   padding: var(--btn-padding);
   color: var(--default-btn-color);
   font: var(--font-weight) var(--font-size) var(--font-family);
@@ -289,12 +288,13 @@
   }
 }
 
-/* From Uiverse.io by barisdogansutcu */
 .btn_started {
   display: flex;
+  width: 100%;
+  max-width: 200px;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   font-family: inherit;
   font-size: 13px;
   font-weight: 500;
