@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.container_global{
+.container_global {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,8 +41,11 @@
 
 
 .container_img_logo p, .n_text {
+  display: flex;
+  position: relative;
+  top: 4px;
   color: #fff;
-  font-size: 23px;
+  font-size: 27px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
   background: linear-gradient(to right, #0008ff 30%, #ffffff 90%, #8e62ff 60%);
@@ -64,7 +67,9 @@
 }
 
 .n_text {
-  font-size: 27px;
+  position: relative;
+  top: -7px;
+  font-size: 35px;
   font-style: italic;
   font-family: 'Lobster', display;
   padding-right: 10px;
@@ -132,7 +137,7 @@
   background-color: rgba(0, 0, 0, 0.583);
   border-radius: 10px;
   width: 150px;
-  height: 30px;
+  height: 40px;
 }
 
 .container_login_register button:nth-child(1) {
@@ -141,13 +146,13 @@
   align-items: center;
   border-radius: 10px;
   width: 150px;
-  height: 30px;
+  height: 40px;
   background: none;
   border: none;
 }
 
 .container_login_register button a {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
 }
 
