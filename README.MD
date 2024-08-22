@@ -1,6 +1,6 @@
 # Projeto: Plataforma NextAPI
 
-![NextAPI Banner](https://github.com/user-attachments/assets/0aa7973d-0217-4ec1-a9db-33eb3343ffcf)
+![NextAPI Banner](https://github.com/user-attachments/assets/ecbce496-72ba-417d-b015-6f129c211da7)
 
 ## Descrição
 
