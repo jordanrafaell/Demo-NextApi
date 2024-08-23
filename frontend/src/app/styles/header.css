@@ -43,11 +43,11 @@
 .container_img_logo p, .n_text {
   display: flex;
   position: relative;
-  top: 4px;
+  top: 5px;
   color: #fff;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 500;
-  font-family: 'Lato', sans-serif;
+  font-family: 'roboto', sans-serif;
   background: linear-gradient(to right, #0008ff 30%, #ffffff 90%, #8e62ff 60%);
   background-size: auto auto;
   background-clip: border-box;
@@ -71,7 +71,7 @@
   top: -7px;
   font-size: 35px;
   font-style: italic;
-  font-family: 'Lobster', display;
+  font-family: 'Cinzel Decorative', display;
   padding-right: 10px;
   filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
 }
