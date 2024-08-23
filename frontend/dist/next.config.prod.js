@@ -1,1 +1,0 @@
-"use strict";var nextConfig={output:"export",trailingSlash:!0,distDir:"release"};module.exports=nextConfig;
