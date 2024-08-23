@@ -5,3 +5,4 @@ import '../../styles/header.css';
 import '../../styles/media.css'
 import '../../styles/about.css';
 import '../../styles/dashboard.css';
+import '../../styles/services.css';
