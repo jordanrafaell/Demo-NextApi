@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Dashboard from "./pages/dashboard";
 import Services from "./pages/services";
 import Plans from "./pages/plans";
+import Footer from "./pages/footer";
 import './styles/globals.css';
 
 
@@ -19,6 +20,7 @@ export default function Home() {
     <Dashboard />
     <Services/>
     <Plans/>
+    <Footer/>
     </main>
     </>
   );
