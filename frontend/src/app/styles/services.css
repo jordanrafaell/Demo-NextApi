@@ -17,7 +17,6 @@
 
 .container_card_services {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -27,6 +26,7 @@
 
 .card_services {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -57,12 +57,17 @@ strong {
 
 .container_text_card_services h2 {
   width: 100%;
-  font-size: clamp(1.7rem, 2vw, 2.5rem);
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
   color: aliceblue;
-  background: #ffffff;
-  background: linear-gradient(to right, #ffffff 15%, #6b1dfc 23%, black 55%);
+  background: linear-gradient(to left, #6b1dfc 45%, black, #ffffff 25%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: textclip 3.5s backwards infinite;
 }
 
 .container_text_card_services p {
@@ -85,6 +90,11 @@ strong {
   max-width: 600px;
   height: 100%;
   max-height: 450px;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 2px solid white;
+}
+
+.container_img_services img:hover{
+  transform: scale(1.03);
+  border: 3px solid rgb(255, 0, 0);
 }

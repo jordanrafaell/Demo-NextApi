@@ -62,11 +62,16 @@
   max-width: 650px;
   font-size: clamp(1.7rem, 2vw, 2.5rem);
   color: aliceblue;
-  background: #ffffff;
-  background: linear-gradient(to right, #ffffff 25%, #6b1dfc 45%, black);
+  background: linear-gradient(to left, #ffffff 25%, #6b1dfc 45%, black);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  animation: textclip 3s backwards infinite;
 }
 
 .container_text_api p {

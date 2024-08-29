@@ -5,3 +5,6 @@ const btnMenu = document.querySelector('.menu_hamburguer');
 btnMenu.addEventListener('click', () => {
   navMenu.classList.toggle('active_menu');
 });
+
+
+// Plans
