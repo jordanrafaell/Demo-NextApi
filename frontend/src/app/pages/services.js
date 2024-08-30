@@ -17,9 +17,9 @@ const Services = () => (
               exit={{ opacity: 1, x: 0, y: 50 }}
               transition={{ duration: 3 }}
             >
-              <h2>Autenticação Segura</h2>
-              <p><strong>Código:</strong>Um exemplo de rota de login utilizando Express.js. Esta API valida as credenciais fornecidas e, caso sejam corretas, retorna um token de autenticação que pode ser usado para acessar outras áreas seguras do sistema.</p>
-              <p><strong>Descrição:</strong>Garanta a segurança dos seus usuários com nossa API de autenticação, que oferece uma solução rápida e confiável para o controle de acesso em aplicações modernas.</p>
+              <h2>Secure Authentication</h2>
+              <p><strong>Code:</strong> An example of a login route using Express.js. This API validates the provided credentials and, if correct, returns an authentication token that can be used to access other secure areas of the system.</p>
+              <p><strong>Description:</strong> Ensure the security of your users with our authentication API, offering a quick and reliable solution for access control in modern applications.</p>
             </motion.div>
             <motion.div className="container_img_services"
               initial={{ opacity: 0, x: 0, y: -50 }}
@@ -46,9 +46,9 @@ const Services = () => (
               exit={{ opacity: 1, x: 0, y: -50 }}
               transition={{ duration: 3 }}
             >
-              <h2>Gerenciamento de Estoque:</h2>
-              <p><strong>Código:</strong>Uma API que gerencia o inventário, com rotas para listar os itens disponíveis e adicionar novos produtos. Mantém o controle do estoque atualizado, facilitando o gerenciamento de grandes volumes de itens.</p>
-              <p><strong>Descrição:</strong>Mantenha seu estoque sob controle em tempo real, evitando rupturas ou excessos, com nossa API eficiente e de fácil integração para qualquer plataforma.</p>
+              <h2>Inventory Management</h2>
+              <p><strong>Code:</strong> An API that manages inventory, with routes to list available items and add new products. It keeps the inventory control up to date, facilitating the management of large volumes of items.</p>
+              <p><strong>Description:</strong> Keep your inventory under control in real time, avoiding shortages or excesses, with our efficient and easy-to-integrate API for any platform.</p>
             </motion.div>
           </div>
 
@@ -59,9 +59,9 @@ const Services = () => (
               exit={{ opacity: 1, x: 0, y: 50 }}
               transition={{ duration: 3 }}
             >
-              <h2>Processamento de Pagamentos:</h2>
-              <p><strong>Código:</strong>Uma API de processamento de pagamentos que valida o método de pagamento e processa a transação. Esta API garante que os pagamentos sejam realizados de forma segura e eficiente, suportando vários métodos de pagamento.</p>
-              <p><strong>Descrição:</strong>Simplifique o processamento de pagamentos e melhore a experiência do cliente com nossa API que suporta múltiplos métodos, garantindo transações seguras e rápidas.</p>
+              <h2>Payment Processing</h2>
+              <p><strong>Code:</strong> A payment processing API that validates the payment method and processes the transaction. This API ensures that payments are made securely and efficiently, supporting multiple payment methods.</p>
+              <p><strong>Description:</strong> Simplify payment processing and enhance the customer experience with our API that supports multiple methods, ensuring secure and fast transactions.</p>
             </motion.div>
             <motion.div className="container_img_services"
               initial={{ opacity: 0, x: 0, y: -50 }}
@@ -88,16 +88,18 @@ const Services = () => (
               exit={{ opacity: 1, x: 0, y: -50 }}
               transition={{ duration: 3 }}
             >
-              <h2>Notificações por Email:</h2>
-              <p><strong>Código:</strong>Uma API dedicada ao envio de notificações por email. Recebe os detalhes da mensagem por meio de uma requisição POST e realiza o envio do email. Ideal para manter seus usuários informados sobre atualizações e eventos.</p>
-              <p><strong>Descrição:</strong>Automatize a comunicação com seus usuários através de nossa API de email, que facilita o envio de notificações personalizadas diretamente da sua aplicação, mantendo-os sempre informados.</p>
+              <h2>Email Notifications</h2>
+              <p><strong>Code:</strong> An API dedicated to sending email notifications. It receives message details through a POST request and sends the email. Ideal for keeping your users informed about updates and events.</p>
+              <p><strong>Description:</strong> Automate communication with your users through our email API, which makes it easy to send personalized notifications directly from your application, keeping them always informed.</p>
             </motion.div>
           </div>
         </div>
       </div>
-
     </section>
+
   </>
 )
 
 export default Services
+
+
