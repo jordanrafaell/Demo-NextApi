@@ -34,7 +34,7 @@ const About = () => {
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           exit={{ opacity: 1, y: 100 }}
-          transition={{ duration: 5 }}
+          transition={{ duration: 3 }}
         >
           <h3>Why Use Our APIs?</h3>
           <p>Our APIs are crafted to enhance efficiency and simplify processes. With easy-to-use documentation and robust support, integrating our APIs into your systems is a breeze. Leverage our APIs to unlock new possibilities and drive innovation.</p>

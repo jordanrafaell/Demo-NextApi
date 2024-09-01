@@ -7,7 +7,13 @@ const Plans = () => (
   <>
     <section className='Plans' id='Plans'>
       <div className="container_cards_plans cards__inner">
-        <div className="cards__card card_plans">
+        <motion.div className="cards__card card_plans"
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 1, y: 100 }}
+          transition={{ duration: 1 }}
+
+        >
           <p className="card__heading">Free Plan</p>
           <p className="card__price">$0/month</p>
           <ul className="card__bullets flow" role="list">
@@ -18,9 +24,14 @@ const Plans = () => (
             <li>Limited API requests</li>
           </ul>
           <a className="card__cta cta" href="#free">Get Started</a>
-        </div>
+        </motion.div>
 
-        <div className="cards__card card_plans">
+        <motion.div className="cards__card card_plans"
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 1, y: 100 }}
+          transition={{ duration: 2 }}
+        >
           <p className="card__heading">Pro Plan</p>
           <p className="card__price">$15/month</p>
           <ul className="card__bullets flow" role="list">
@@ -31,9 +42,14 @@ const Plans = () => (
             <li>Unlimited API requests</li>
           </ul>
           <a className="card__cta cta" href="#pro">Choose Pro</a>
-        </div>
+        </motion.div>
 
-        <div className="cards__card card_plans">
+        <motion.div className="cards__card card_plans"
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 1, y: 100 }}
+          transition={{ duration: 3 }}
+        >
           <p className="card__heading">Enterprise Plan</p>
           <p className="card__price">$49/month</p>
           <ul className="card__bullets flow" role="list">
@@ -45,7 +61,7 @@ const Plans = () => (
             <li>Team collaboration tools</li>
           </ul>
           <a className="card__cta cta" href="#enterprise">Get Enterprise</a>
-        </div>
+        </motion.div>
 
 
       </div>
