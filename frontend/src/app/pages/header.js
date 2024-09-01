@@ -11,7 +11,7 @@ const Header = () => (
   <header className='header' id='home'>
     <div className="container_global">
       <div className='container_img_logo'>
-        <a href="#home" onClick={() => window.location.reload()} >
+        <a href="/" onClick={() => window.location.reload()} >
           <img className='logo_img' src="/images/logos/logo_menu.png" alt="Logo da plataforma" />
           <p><span className='n_text'>N</span>extApi</p>
         </a>
@@ -19,7 +19,7 @@ const Header = () => (
       <nav className='nav_menu'>
         <ul className='list_ul'>
           <li>
-            <a href='#home'>Home</a>
+            <a href='/'>Home</a>
           </li>
           <li>
             <a href='#About'>About</a>
@@ -40,10 +40,10 @@ const Header = () => (
       </nav>
       <div className='container_login_register'>
         <button>
-          <a href='#login'>Login</a>
+          <a href='/pages/login'>Login</a>
         </button>
         <button>
-          <a href='#login'>Register</a>
+          <a href='/pages/register'>Register</a>
         </button>
       </div>
       <button className='menu_hamburguer'>

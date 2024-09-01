@@ -1,0 +1,1 @@
+"use strict";var navMenu=document.querySelector(".list_ul"),btnMenu=document.querySelector(".menu_hamburguer");btnMenu.addEventListener("click",function(){navMenu.classList.toggle("active_menu")});

@@ -154,6 +154,7 @@
 .container_login_register button a {
   font-size: 18px;
   color: white;
+  padding: 20%;
 }
 
 .container_login_register button:hover {

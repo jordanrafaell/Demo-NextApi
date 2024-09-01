@@ -8,3 +8,4 @@ import '../../styles/dashboard.css';
 import '../../styles/services.css';
 import '../../styles/plans.css';
 import '../../styles/footer.css';
+import '../../styles/login_register.css';

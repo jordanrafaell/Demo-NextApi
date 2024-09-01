@@ -333,3 +333,31 @@
     overflow: hidden;
   }
 }
+
+/* Responsivo page login/register */
+@media (max-width: 1200px) and (min-width: 0px) {
+  .container_information {
+    display: none !important;
+  }
+
+  .container_input_users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .active_logo {
+    display: block;
+  }
+
+  .container_input_users, .container_types_login {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    gap: 10px !important;
+  }
+}
