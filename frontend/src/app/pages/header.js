@@ -36,6 +36,12 @@ const Header = () => (
           <li>
             <a href='#Contact'>Contact</a>
           </li>
+          <li className='active_login_btn'>
+            <a href="/pages/login">Login</a>
+          </li>
+          <li className='active_login_btn'>
+            <a href="/pages/register">Register</a>
+          </li>
         </ul>
       </nav>
       <div className='container_login_register'>

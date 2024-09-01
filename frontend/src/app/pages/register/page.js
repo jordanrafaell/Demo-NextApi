@@ -13,7 +13,7 @@ export default function Register() {
           <div className="container_information">
             <div className="container_logo_login">
               <a href="/" ><img src="/images/logos/logo_menu.png" alt="Logo menu" /></a>
-              <p>NextApi</p>
+                <a href="/">NextApi</a>
             </div>
             <div className="container_title_login">
               <h2>Create Your Account</h2>
@@ -35,9 +35,10 @@ export default function Register() {
 
             <div className="container_types_login">
 
+
               <div className="container_logo_login active_logo">
                 <a href="/" ><img src="/images/logos/logo_menu.png" alt="Logo menu" /></a>
-                <p>NextApi</p>
+                <a href="/">NextApi</a>
               </div>
 
               <button className='btn_login'>

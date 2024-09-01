@@ -164,3 +164,7 @@
 .menu_hamburguer {
   display: none;
 }
+
+.active_login_btn{
+  display: none;
+}
