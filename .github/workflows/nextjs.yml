@@ -79,7 +79,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./frontend/src/app
+          path: ./frontend/src/app/pages
 
   # Deployment job
   deploy:
