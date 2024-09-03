@@ -40,7 +40,7 @@ const Header = () => (
             <a href="/pages/login">Login</a>
           </li>
           <li className='active_login_btn'>
-            <a href="/pages/register">Register</a>
+            <a href="../pages/register">Register</a>
           </li>
         </ul>
       </nav>
