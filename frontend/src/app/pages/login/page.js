@@ -2,9 +2,15 @@
 // login.js
 
 
-import libs from '../../utils/libs/libs.js'
 import '../../utils/import-css/style.js'
-const { motion, Script, React, FontAwesomeIcon, faGithub, faGoogle, faEnvelope, faKey, faFacebookF, faLinkedin } = libs
+import { motion } from 'framer-motion';
+import Script from 'next/script';
+import Link from 'next/link';
+import React from 'react';
+import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis, Tooltip, Legend } from 'recharts'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faGoogle, faFacebookF, faLinkedin } from '@fortawesome/free-brands-svg-icons'; 
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons'; 
 
 export default function Login() {
   return (
