@@ -1,11 +1,11 @@
 'use client'
-// login.js
-
+// register.js
 
 import libs from '../../utils/libs/libs.js'
 import '../../utils/import-css/style.js'
 const { motion, Script, React, FontAwesomeIcon, faGithub, faGoogle, faFacebookF, faLinkedin } = libs
-export default function Login() {
+
+export default function Register() {
   return (
     <>
       <section className='login'>
@@ -16,24 +16,25 @@ export default function Login() {
                 <a href="/">NextApi</a>
             </div>
             <div className="container_title_login">
-              <h2>Seamless API Integration</h2>
-              <p>Connect your applications quickly with our intuitive APIs.</p>
+              <h2>Create Your Account</h2>
+              <p>Sign up now to start integrating our powerful APIs into your applications.</p>
               <br />
               <br />
               <br />
-              <h2>Secure & Scalable</h2>
-              <p>Enjoy robust security and scalability for your projects.</p>
+              <h2>Why Choose Us?</h2>
+              <p>Experience seamless API integration with strong security and easy management.</p>
               <br />
               <br />
               <br />
-              <h2>Effortless Management</h2>
-              <p>Manage your APIs easily and efficiently, all in one place.</p>
+              <h2>Get Started Quickly</h2>
+              <p>Register now and take the first step towards efficient API management.</p>
             </div>
           </div>
 
           <div className="container_input_users">
 
             <div className="container_types_login">
+
 
               <div className="container_logo_login active_logo">
                 <a href="/" ><img src="/images/logos/logo_menu.png" alt="Logo menu" /></a>
@@ -59,19 +60,21 @@ export default function Login() {
 
             </div>
 
-            <form action="" method="post" id='form_login'>
+            <form action="" method="post" id='form_register'>
               <div className='div_input'>
-                <input type="email" name="email" id="email_user" className='input_user' placeholder='Your email address:' />
+                <input type="email" name="email" id="create_email" className='input_user' placeholder='Your email address:' />
+                <input type="email" name="email" id="confirm_email" className='input_user' placeholder='Confirm your email address:' />
               </div>
               <div className='div_input'>
-                <input type="password" name="password" id="password_user" className='input_user' placeholder='Your password:' />
+                <input type="password" name="password" id="create_password" className='input_user' placeholder='Your password:' />
+                <input type="password" name="password" id="confirm_password" className='input_user' placeholder='Confirm your password:' />
               </div>
               <button className="btn_explore login_btn" type='submit'>
                 <span>
-                  Login
+                  Register
                 </span>
               </button>
-              <p className='account_login'>Not a member? <libs.Link href='../register'>Sign up</libs.Link></p>
+              <p className='account_login'>Already have an account?  <a href="../login">   Login</a></p>
             </form>
           </div>
         </div>
