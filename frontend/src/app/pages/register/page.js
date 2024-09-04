@@ -3,7 +3,7 @@
 
 import libs from '../../utils/libs/libs.js'
 import '../../utils/import-css/style.js'
-const { motion, Script, React, FontAwesomeIcon, faGithub, faGoogle, faEnvelope, faKey, faFacebookF, faLinkedin } = libs
+const { motion, Script, React, FontAwesomeIcon, faGithub, faGoogle, faFacebookF, faLinkedin } = libs
 
 export default function Register() {
   return (
