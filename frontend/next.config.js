@@ -6,9 +6,7 @@ const nextConfig = {
   },
   output: 'export',
   distDir: 'out',
-  images: {
-    unoptimized: true,
-  },
+  basePath: '/out'
 };
 
 module.exports = nextConfig;
