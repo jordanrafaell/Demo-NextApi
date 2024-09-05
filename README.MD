@@ -9,7 +9,6 @@ Bem-vindo à NextAPI! A **NextAPI** é uma plataforma avançada projetada para f
 
 A **NextAPI** é uma plataforma inovadora que facilita a integração de APIs com uma interface intuitiva e suporte a múltiplos planos. Com funcionalidades avançadas e uma abordagem centrada no usuário, nossa plataforma visa simplificar a implementação e o gerenciamento de APIs, oferecendo soluções adaptáveis para diversas aplicações.
 
-![Screenshot da Plataforma](path/to/screenshot.png)
 
 ## Funcionalidades
 
