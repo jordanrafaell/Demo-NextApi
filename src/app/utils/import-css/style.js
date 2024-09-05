@@ -1,0 +1,11 @@
+// Styles.js
+import '../../styles/banner.css';
+import '../../styles/globals.css';
+import '../../styles/header.css';
+import '../../styles/media.css'
+import '../../styles/about.css';
+import '../../styles/dashboard.css';
+import '../../styles/services.css';
+import '../../styles/plans.css';
+import '../../styles/footer.css';
+import '../../styles/login_register.css';
