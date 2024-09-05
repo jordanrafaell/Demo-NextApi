@@ -71,7 +71,7 @@ export default function Login() {
                   Login
                 </span>
               </button>
-              <p className='account_login'>Not a member? <libs.Link href='../register'>Sign up</libs.Link></p>
+              <p className='account_login'>Not a member? <libs.Link href='https://next-api-psi.vercel.app/pages/register'>Sign up</libs.Link></p>
             </form>
           </div>
         </div>

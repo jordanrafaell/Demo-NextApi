@@ -37,10 +37,10 @@ const Header = () => (
             <a href='#Contact'>Contact</a>
           </li>
           <li className='active_login_btn'>
-            <a href="/pages/login">Login</a>
+            <a href="https://next-api-psi.vercel.app/pages/login">Login</a>
           </li>
           <li className='active_login_btn'>
-            <a href="../pages/register">Register</a>
+            <a href="https://next-api-psi.vercel.app/pages/register">Register</a>
           </li>
         </ul>
       </nav>

@@ -74,7 +74,7 @@ export default function Register() {
                   Register
                 </span>
               </button>
-              <p className='account_login'>Already have an account?  <a href="../login">   Login</a></p>
+              <p className='account_login'>Already have an account?  <a href="https://next-api-psi.vercel.app/pages/login">   Login</a></p>
             </form>
           </div>
         </div>
